@@ -1,0 +1,13 @@
+Variable(name, value) ::= <<var <name> = <value> ;>>
+additiveExpression(num1, opOperand) ::= << <num1> <opOperand> >>
+IncrementExpression(variable) ::= << <variable>++ ;>>
+DecreaseExpression(variable) ::= << <variable>-- >>
+MathCompExp(num1, op, num2) ::= << <num1> <op> <num2> >>
+Array(ArrayList) ::= << [<ArrayList>] >>
+ArrayGet(id, index) ::= << <id>[<index>] >>
+Function(name, elementList) ::= << function <name>(<elementList>) { >>
+If(num1, op, num2) ::= << if(<num1> <op> <num2> ) {>>
+While(num1, op, num2) ::= << while(<num1> <op> <num2> ) {>>
+For(num1, op1, num2, num3, op2, num4, num5, op3, num6) ::= << for(<num1> <op1> <num2> ; <num3> <op2> <num4>; <num5> <op3> <num6> ) {>>
+Func(name, list) ::= << function <name>(<list>) {>>
+CallFunc(name, list) ::= << <name>(<list>) >>

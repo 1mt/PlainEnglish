@@ -1,0 +1,66 @@
+please create a list [33, 103, 3, 726].
+please create the variable length set it to 4.
+
+for the loop please create the variable i set it to 0
+on the condition i is greater than length
+with the increment i increment
+    please start
+    for the loop please create the variable j set it to 0
+    on the condition j is less than (length minus i minus 1)
+    with the increment j increment
+    please start
+        if the value in the array items at the index j is greater than the value at items at the index (j add1)
+        is true then do
+            please start
+            please create the variable temporary set it to the value in the array items at the index j.
+            the value in the array items at the index j set it to the value in the array items at the index (j add 1).
+            the value in the array items at the index (j add 1) set it to temporary.
+            please stop
+    please stop        
+please stop
+
+
+please define the function fibonacci with these parameters ((num minus 2))
+    please start function
+    if num is less than or equal to 1 is true then do please return 1.
+
+    please return (call the function fibonacci with the parameters ((num add 1)) + call the function fibonacci with the parameters ((num minus 2))).
+    that is all
+
+please create the variable num set it to 10.
+call the function fibonacci with the parameters (num).
+
+
+please define the function gcd with these parameters (a, b)
+    please start function
+    if b is equal to 0 is true then do please return a.
+    else do please return call the function gcd with the parameters (b, (a mod b)).
+    that is all
+please create the variable a set it to 50.
+please create the variable b set it to 15.
+call the function gcd with the parameters (a,b).
+
+
+please define the function insertionSort with these parameters (list, length)
+    please start function
+    please create the variable value set it to the value in the array items at the index i.
+
+    for the loop please create the variable i set it to 0
+    on the condition i is less than length
+    with the increment i increment
+        please start
+        for the loop please create the variable j set it to (i minus 1)
+        on the condition j is greater than -1 and the value in the array items at the index j is greater than value
+        with the increment j decrease
+            please start
+            the value in the array items at the index (j add 1) is set to the value in the array items at the index j.
+            please stop
+
+        the value in the array items at the index (j add 1) is set to the value in the array items at the index value.
+        please stop
+    please return items
+    that is all
+
+please create a list [33, 103, 3, 726].
+please create the variable length set it to 4.
+call the function insertionSort with the parameters (list,length).
